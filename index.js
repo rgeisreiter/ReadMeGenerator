@@ -13,14 +13,39 @@ const questions = [
   },
   {
     type: "input",
-    message: "Please describe your project",
+    message: "Please describe your project.",
     name: "description",
+  },
+  {
+    type: "input",
+    message: "Please describe the installation process.",
+    name: "install",
+  },
+  {
+    type: "input",
+    message: "Please describe the usage of the project.",
+    name: "usage",
+  },
+  {
+    type: "input",
+    message: "Please list the contributors.",
+    name: "contributions",
+  },
+  {
+    type: "input",
+    message: "Please enter any tests for your project.",
+    name: "test",
   },
   {
     type: "list",
     message: "Which license do you want to use?",
     name: "license",
     choices: ["MIT", "Apache", "GPLv2", "None"],
+  },
+  {
+    type: "list",
+    message: "What questions do you have about your project",
+    name: "questions",
   },
 ];
 
