@@ -43,7 +43,7 @@ const questions = [
     choices: ["MIT", "Apache", "GPLv2", "None"],
   },
   {
-    type: "list",
+    type: "input",
     message: "What questions do you have about your project",
     name: "questions",
   },
